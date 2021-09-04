@@ -1,0 +1,113 @@
+body{
+    margin: 0px;
+}
+
+/* /---------------------------Header-----------------------------/ */
+
+#body-header{
+    margin-top : -16px;
+    height: 60vh;
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+    opacity: 0.8;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.horizontal-list {
+    padding-top: 30px;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    font-size: large;
+    padding-left: 20px;
+}
+
+.horizontal-list a{
+    color: white;
+    text-decoration: none;
+}
+
+.horizontal-list a:hover{
+    color: lightgrey;
+    text-decoration: underline;
+    transition: color 0.7s;
+}
+
+.center-text{
+    text-align: center;
+}
+
+#my-name{
+    color: white;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.icons-list{
+    margin-top: -70px;
+}
+
+.icons-list i{
+    font-size: larger;
+}
+
+.icons-list li a i{
+    padding: 10px;
+    border-radius: 80%;
+
+}
+
+.icons-list li a i:hover{
+    padding: 10px;
+    font-size: larger;
+    border-radius: 80%;
+    box-shadow: 0px 0px 8px 4px goldenrod;    /*box-shadow parameters: horizontal-offset vertical-offset blur spread color */
+}
+
+#iconify-effect {
+    font-size: larger;
+}
+
+#iconify-effect:hover{
+    padding: 10px;
+    border-radius: 80%;
+    box-shadow: 0px 0px 8px 4px goldenrod;
+}
+
+
+/* /----------------------------------About---------------------------/ */
+
+#display-picture{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+}
+
+#display-picture img{
+    height: 100%;
+    width: 90%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px 4px lightgrey;
+    position: relative;
+}
+
+#about p {
+    padding: 10px;
+    width: 70%;
+    text-align: justify;
+    color: grey;
+    line-height: 28px;
+    font-size: 1.1rem;
+    margin: auto;
+}
+
+#about p strong{
+    color: #2857a4;
+}
