@@ -111,3 +111,109 @@ body{
 #about p strong{
     color: #2857a4;
 }
+
+/*---------------------------------Section-------------------*/ 
+
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section:nth-child(2n) {
+    background-color: #9e9b9b29;
+}
+
+section:nth-child(2n + 1) {
+    background-color: white;
+}
+
+.section-heading{
+    width: auto;
+    padding: 20px 10px 10px;
+    font-weight: 400;
+}
+
+.section-heading span{
+    font-size: 40px;
+    color: #2857a4;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+}
+
+/*------------------------Skills----------------*/
+
+.skills-display{
+    width: 75%;
+    padding: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.skill-progress {
+    width: 11rem;
+    height: 2.2rem;
+    background-color: lightgrey;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
+    margin: 25px;
+    overflow: hidden;
+}
+
+
+.skill-progress span{
+    color: whitesmoke;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+#skill1{
+    height: 100%;
+    width: 70%;
+    background-color: goldenrod
+}
+
+#skill2{
+    height: 100%;
+    width: 55%;
+    background-color: rgb(132, 206, 22);
+}
+
+#skill3{
+    height: 100%;
+    width: 45%;
+    background-color: crimson;
+}
+
+#skill4{
+    height: 100%;
+    width: 65%;
+    background-color: orange;
+}
+
+#skill5{
+    height: 100%;
+    width: 45%;
+    background-color: coral;
+}
+
+#skill6{
+    height: 100%;
+    width: 65%;
+    background-color: palevioletred;
+}
+
+#skill7{
+    height: 100%;
+    width: 45%;
+    background-color: brown;
+}
+
+.mbpx{
+    margin-bottom: 75px;
+}
